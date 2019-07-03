@@ -1,0 +1,7 @@
+mixin main-menu(mod)
+    nav(class= "main-menu main-menu--" +mod)
+        ul.main-menu__list
+            -var menu = ['Main', 'About me', 'Skills', 'Projects', 'Feedbacks', 'Contact me'];
+            each item in menu 
+                li.main-menu__item
+                    a(href='#').main-menu__link= item

@@ -1,5 +1,12 @@
 {
   "text-color": "#414c63",
+  "hover-color":"#5500f2",
+  "yellow":"#f29400",
+  "footer-bck":"#1f232d",
+  "elements-color":"#414c63",
+  "arrow-btn-color":"#2d3c4e",
+  "gradient":"linear-gradient(to right, #ad00ed, #5500f2)",
+  "content-color":"rgba(65, 76, 99, 0.4)",
   "links-color": "#4b6fd7",
   "bp-desktop-hd": "1800px",
   "bp-desktop": "1200px",

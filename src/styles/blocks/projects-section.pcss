@@ -1,0 +1,119 @@
+
+.projects-section__title{
+    padding-bottom: 92px;
+}
+
+.projects-section__slider{
+    margin-bottom: 450px;
+}
+
+.projects-section__item{
+    display:flex;
+}
+
+.projects-section__slider-block{
+    position:relative;
+    margin-right: 160px;
+    z-index: 2;
+    width: 65%;
+}
+
+.projects-section__slider-list{
+    width: 28%;
+    position: absolute;
+    bottom: 0;
+    right: -80px;
+}
+
+
+.projects-section__slider-image{
+    height: 100px;
+    width: 170px;
+}
+
+.projects-slider__controlers{
+    position: absolute;
+    right: 0;
+}
+
+.projects-slider__controlers-arrow {
+    height: 50px;
+    width: 50px;
+    background-color: $arrow-btn-color;
+    transition: .4s;
+        &:hover{
+            background-color: $hover-color;
+        }
+
+}
+
+.projects-slider__controlers-image{
+    height: 10px;
+    width: 8px;
+    fill:#fff;
+}
+
+.projects-slider__controlers-image--up{
+    transform: rotate(-90deg);
+}
+
+.projects-slider__controlers-image--down{
+    transform: rotate(90deg);
+
+}
+
+.projects-section__content-image{
+    width: 15px;
+    height: 15px;
+    fill:$links-color;
+}
+
+.projects-section__content{
+    width: 22%;
+    position: relative;
+}
+
+.projects-section__number{
+    font-size:400px;
+    line-height:0.12;
+    font-weight:800;
+    opacity:0.05;
+    position:absolute;
+    top:40%;
+    right: 100%;
+}
+
+.projects-section__skills{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.projects-section__skill{
+    padding: 17px 21px 12px 20px;
+    border-radius:22.5px;
+    background-color: rgba(122,160,197,0.06);
+    text-align:center;
+    font-weight:600;
+}
+
+.projects-section__content-title{
+    font-size:30px;
+    padding-bottom: 44px;
+}
+
+.projects-section__content-text{
+    font-weight: 600;
+    color:$content-color;
+}
+
+.projects-section__content-link{
+    margin-top: 50px;
+    font-weight: bold;
+    display: block;
+    color:$links-color;
+        /* &:before {
+         content: +icon('link', 'projects-section__content-image') ;
+        } */
+
+}

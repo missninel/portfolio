@@ -1,0 +1,41 @@
+section.projects-section
+    .container
+        h2.projects-section__title.title My Projects
+        ul.projects-section__slider
+            li.projects-section__item
+                .projects-section__slider-block
+                    +image('content/site1.png', 'projects-section__slider-background')
+                    ul.projects-section__slider-list
+                        li.projects-section__slider-item
+                            a.projects-section__slider-link(href="#")
+                                +image('content/site2.png', 'projects-section__slider-image')
+                        li.projects-section__slider-item
+                            a.projects-section__slider-link(href="#")
+                                +image('content/site3.png', 'projects-section__slider-image')
+                        li.projects-section__slider-item
+                            a.projects-section__slider-link(href="#")
+                                +image('content/site4.png', 'projects-section__slider-image')
+                        li.projects-section__slider-item
+                            a.projects-section__slider-link(href="#")
+                                +image('content/site1.png', 'projects-section__slider-image active')
+                    .projects-slider__controlers
+                        button(type='button').projects-slider__controlers-arrow
+                            +icon('arrow-down', 'projects-slider__controlers-image projects-slider__controlers-image--up')
+                        button(type='button').projects-slider__controlers-arrow
+                            +icon('arrow-down', 'projects-slider__controlers-image projects-slider__controlers-image--down')
+                .projects-section__content
+                    .projects-section__number 4
+                    ul.projects-section__skills
+                        -var skills= ['HTML', 'CSS', 'JavaScript'];
+                        each item in skills
+                            li.projects-section__skill=item
+                    h3.projects-section__content-title.title Website for Loftschool course
+                    .projects-section__content-text.text
+                        p This girl studied web development at Loftschool! Almost 3 months of  hard work and sleepless nights.
+                        a.projects-section__content-link(hrerf='#') Go to the website
+                            +icon('link', 'projects-section__content-image')
+
+                    
+
+
+

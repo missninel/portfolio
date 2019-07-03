@@ -10,6 +10,20 @@ html(lang="en")
   body
     .wrapper
       .maincontent
-        +image('content/user.jpg', 'user-pic')
-        +icon('link', 'link-class')
-        .icon-bg
+        .maincontent__mountains-bg
+          include components/welcoming-section
+          include components/about-section
+        include components/skills-section
+        include components/projects-section
+        .maincontent__budda-bg
+          include components/feedback-section
+          include components/contact-section
+        include components/footer
+
+        
+        
+        
+        
+        //- +image('content/user.jpg', 'user-pic')
+        //- +icon('link', 'link-class')
+        //- .icon-bg

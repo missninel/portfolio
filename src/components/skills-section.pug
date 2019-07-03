@@ -1,0 +1,20 @@
+section.skills-section
+    .container.skills-section__container
+        .skills-section__title
+            h2.skills-section__name.title My skills that you may need
+            p.skills-section__description This website was made by me during my studies at the Loftshool. I will update the content a bit later. So far take a look how cool this webpage is!
+        .skills-section__image
+            +image('content/keyboard.png', 'skills-section__keyboard')
+        .skills-section__infograms
+            h3.skills-section__infograms-title Front-end
+            +infograms([
+                {name: "HTML5", perc: "90"},
+                {name: "CSS3", perc: "50"},
+                {name: "Javascript", perc: "40"},
+                {name: "jQuery и Vue.js", perc: "20"}])
+            h3.skills-section__infograms-title Workflow
+            +infograms([
+                {name: "Git", perc: "60"},
+                {name: "Terminal", perc: "50"},
+                {name: "Gulp", perc: "70"},
+                {name: "WebPack", perc: "40"}])

@@ -1,0 +1,35 @@
+section.feedback-section
+    .container
+        .feedback-section__block
+            h2.feedback-section__title.title What people say about me 
+            .feedback-section__controlers   
+                button.feedback-section__btn(type='button')
+                    +icon('arrow-down', 'feedback-section__btn-img feedback-section__btn-img__prev')
+                button.feedback-section__btn(type='button')
+                    +icon('arrow-down', 'feedback-section__btn-img feedback-section__btn-img__next')
+        ul.feedback-section__slider
+            //- - for (var i = 0; i < 2; i++)
+            li.feedback-section__item
+                .feedback-section__wrap
+                    .text
+                        p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt est dolorem repellat tempora accusantium rerum earum, fugit, ex voluptatum
+                    .feedback-section__content 
+                        .feedback-section__photo
+                            +image('content/feedback_av1.png', 'feedback-section__photo-user')
+                        .feedback-section__person
+                            h3.feedback-section__name  Kovalchuk Dmitriy
+                            .feedback-section__proffesion Founder of the Loftschool
+            li.feedback-section__item
+                .feedback-section__wrap
+                    .text
+                        p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt est dolorem repellat tempora accusantium rerum earum, fugit, ex voluptatum
+                    .feedback-section__content 
+                        .feedback-section__photo
+                            +image('content/feedback_av2.png', 'feedback-section__photo-user')
+                        .feedback-section__person
+                            h3.feedback-section__name  Sabantsev Vladimir
+                            .feedback-section__proffesion Teacher
+
+
+
+

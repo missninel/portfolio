@@ -1,0 +1,24 @@
+section.about-section
+    .container
+        .about-section__description
+            .about-section__data
+                .about-section__photo
+                    +image('content/avatar.jpg', 'about-section__image')
+                table.about-section__data-table
+                    -var data = [['Place of living:', 'Warsaw'], ['Age:', '21 y.o.'], ['Date of birth:', '02.08.1998']];
+                    each row in data
+                        tr.about-section__data-row
+                            td.about-section__data-title #{row[0]}
+                            td.about-section__data-content #{row[1]}
+            .about-section__content
+                .about-section__welcome
+                    h3.about-section__greeting Hi! My name is
+                    h2.about-section__name.title Iryna Kozhanova
+                .about-section__text.text
+                    p I develop modern websites and web aplications.I enjoy making advanced and modern projects.
+                    p.about-section__text-inclined This website was made by me during my studies at the Loftshool. I will update the content a bit later. So far take a look how cool this webpage is!
+
+
+
+
+

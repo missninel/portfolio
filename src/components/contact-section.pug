@@ -1,0 +1,20 @@
+section.contact-section
+    .container
+        h2.contact-section__title.title Contact me
+        form.contact-section__form(action="")
+            .contact-section__content
+                .contact-section__row
+                    label.contact-section__block(for="")
+                        .contact-section__label-text Enter your name 
+                        +icon('user', 'contact-section__label-text__icon')
+                        input.contact-section__label-name(type='text', name='name', placeholder='Dmitriy Kovalchuk')
+                    label.contact-section__block(for="")
+                        .contact-section__label-text Enter your email 
+                        +icon('envelope', 'contact-section__label-text__icon')
+                        input.contact-section__label-name(type='email', name='email', placeholder='loftschool@study.com')
+                .contact-section__row
+                    label.contact-section__block(for="")
+                        .contact-section__label-text Your message
+                        +icon('message', 'contact-section__label-text__icon')
+                        textarea.contact-section__label-name.contact-section__label-name__textarea(name='textarea', placeholder='Need your help in the website development. Please, let me know what is the price')
+                button.contact-section__button(type='submit') Submit 
